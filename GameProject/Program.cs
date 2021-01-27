@@ -37,7 +37,7 @@ namespace GameProject
             GameManager gameManager = new GameManager();
             gameManager.Add(game1);
 
-            WinterSale winterSale = new WinterSale();
+            ICampaign winterSale = new WinterSale();
             winterSale.Update(game1);
 
             GameManager gameManager1 = new GameManager();

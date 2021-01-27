@@ -8,7 +8,7 @@ namespace GameProject
     {
         public void Add(Player player)
         {
-            Console.WriteLine("Yeni kullanıcı eklendi: " + player.NickName);
+            Console.WriteLine("Yeni kullanıcı eklendi. Nicki: " + player.NickName + ". Adı: " + player.FirstName + " " + player.LastName);
         }
 
         public void Update(Player player)
